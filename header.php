@@ -31,7 +31,7 @@
             <ul class="dropdown-menu" aria-labelledby="dropdown05">
               <li><a class="dropdown-item" href="index.php?categ=entrée">Entrées</a></li>
               <li><a class="dropdown-item" href="index.php?categ=plat principal">Plats</a></li>
-              <li><a class="dropdown-item" href="index.php?categ=dessert">Desserts</a></li>
+              <li><a class="dropdown-item" href="index.php?categ=dessert">Desserts</a></li> 
             </ul>
           </li>
           <li class="nav-item">

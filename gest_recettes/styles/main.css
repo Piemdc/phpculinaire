@@ -1,0 +1,97 @@
+
+html{
+    height: 100%;
+
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(point.png);
+    margin: 0;
+}
+
+
+.navbar-collapse{
+    flex-grow: 0!important;
+}
+
+a.nounderline:link 
+{ 
+ text-decoration:none; 
+} 
+
+.vignette{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.imgrecette{
+    transition: 0;
+}
+.imgrecette:hover{
+    transform: none!important;
+}
+
+
+.img-fluid{
+    transition: 1000ms;
+}
+
+.img-fluid:hover{
+        transform: scale(1.1);
+}
+
+.headimg{
+height: 300px;
+background-image: url(mediterranean-cuisine-2378758_1920.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.separateur {
+    width:15%!important;
+    align-self: center;
+
+}
+
+.headimg{
+    display: flex;
+    flex-direction: column;
+}
+
+.logohead{
+    width: 25%;
+    margin: 2% 0;
+    align-self: center;
+
+}
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    
+    .logohead{
+        width: 20%;
+        margin: 2% 0;
+        align-self: center;
+    
+    }
+    .headimg{
+    height: 400px;
+}
+
+}
+
+
+@media only screen and (min-width: 1900px) {
+    
+    .logohead{
+        width: 15%;   
+    }
+}

@@ -1,23 +1,27 @@
 <?php
-REQUIRE ('modele.php');
+REQUIRE ('../Modele/modele.php');
 
 function Accueil(){
     $res = getRecettes();
-    INCLUDE ('vueAccueil.php');
+    INCLUDE ('Vue/vueAccueil.php');
 };
 
 function Recette(){
     $id = $_GET['id'];
     $res = getSingleRecette($id);
-    INCLUDE ('recette.php');
+    INCLUDE ('Vue/vueRecette.php');
 };
 
 function Categorie(){
     $categ = $_GET['categ'];
     $res = getCategorie($categ);
-    INCLUDE ('categorie.php');
+    INCLUDE ('Vue/categorie.php');
 
 };
+
+function erreur($msgErreur) {
+    require 'Vue/vueErreur.php';
+  }
 
 
 ?>

@@ -1,6 +1,6 @@
 
 <?php
-        REQUIRE ('controlleur.php');
+        REQUIRE ('controleur.php');
  try {
                
         if(isset($_GET['id'])){
